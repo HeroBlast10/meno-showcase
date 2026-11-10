@@ -1,15 +1,9 @@
-# Meno AI · 决策案例展示
+# Meno AI — recorded decision showcase
 
-访问网站：https://heroblast10.github.io/meno-showcase/
+Open https://heroblast10.github.io/meno-showcase/ and choose **English** or **中文** in the header.
 
-这是 Meno AI 的静态 mock/demo 展示，包含三个使用合成处境录制的真实模型决策回放，以及早期的信任体验与自由探索。十例同模型合成自评不代表真实用户效果或准确率；现实实验尚未开始。
+English includes three fictional U.S. cases: an international PhD graduate on an OPT timeline, a dual-career couple considering relocation, and a first-generation graduate supporting family. The original Chinese recordings and trust/sandbox demos remain available.
 
-候补名单暂未开放。本站没有个人资料输入、模型调用或个人数据后端。浏览位置保存在当前浏览器会话内。
+These are synthetic cases with recorded DeepSeek output (mock/demo), not real users or observed outcomes. Experiments are proposals. Replaying the site makes no model calls, collects no answers or contact details, and needs no API key. Decision cards can be exported as PNG or printed to PDF.
 
-## 发布与更新
-
-本仓库仅保存编译后的静态文件。GitHub Pages 使用 main 分支的根目录，.nojekyll 禁用 Jekyll 处理。无需安装依赖即可托管。
-
-更新时将下一版静态发布包替换至此仓库，保留本说明，用普通提交推送。请勿上传密钥、个人数据、运行目录或核心私有项目源码。
-
-网站可通过仓库 Settings → Pages 取消发布；重新部署后可再次访问。本地电脑关机不影响本站。
+This repository contains compiled static files only. The personal backend, private core source, evaluation gold, checkpoints, budgets and credentials are excluded. GitHub Pages deploys the main branch root. Use a normal revert commit to roll back; do not force push.
